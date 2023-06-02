@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.logoimg {
+    width: 50px;
+    height: auto;
+    border-radius: 7px;
+    margin: 5px 5px 0px 5px;
+}
+
+.logonavn {
+    display: flex;
+    padding: 20px 15px 15px 15px;
+    float: right;
+    border-bottom: 5px solid #121212;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121212;
+    color: white;
+    padding: 0px;
+    border-bottom: 5px solid #6B80BF;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.topnav {
+    display: flex;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px 15px 15px 15px;
+    margin: 0px 3px;
+    text-decoration: none;
+    border-bottom: 5px solid #121212;
+}
+
+.topnav a:hover {
+   border-bottom: 5px solid #AA2B36;
+   color: #AA2B36;
+}
+
+.intro {
+    padding-top: 165px;
+}
+
+.flexintro {
+    display: flex;
+}
+
+.tekstintro {
+    padding: 200px 15px 15px 15px;
+    margin: 20px 20px 20px 350px;
+    width: 100%;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.tekst {
+    margin-bottom: 20px;
+}
+
+.imgintro {
+    padding: 15px;
+    margin: 20px 350px 20px 0px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.selfie {
+    width: 300px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.biografi {
+    margin-top: 180px;
+    background-color: #6B80BF;
+    padding: 50px 15px;
+}
+
+.bionavn {
+    padding: 15px 15px 0px 15px;
+    margin: 20px 20px 0px 200px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.bioinfo {
+    padding: 15px;
+    margin: 20px 200px 20px 200px;
+    font-weight: 300;
+    font-size: large;
+}
+
+.biotekst {
+    margin-bottom: 20px;
+}
+
+.prosjekt {
+    padding: 50px 15px;
+}
+
+.proflex {
+    display: flex;
+}
+
+.pronavn {
+    padding: 15px 15px 0px 15px;
+    margin: 20px 200px 20px 200px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.proinfo {
+    padding: 15px;
+    margin: 20px 20px 20px 200px;
+    font-weight: 300;
+    font-size: large;
+}
+
+.protekst {
+    margin-bottom: 20px;
+}
+
+.proimg {
+    height: auto;
+    width: auto;
+    margin: 20px 200px 20px 0px;
+}
+
+.asc {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kontakt {
+    background-color: #6B80BF;
+    padding: 50px 15px 15px;
+}
+
+.kontaktnavn {
+    text-align: center;
+    padding: 15px;
+    margin: 20px 200px 20px 200px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.infotekst {
+    padding: 15px;
+    font-weight: 300;
+    font-size: large;
+}
+
+.infotittel {
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
